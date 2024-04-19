@@ -15,7 +15,7 @@ This software was made for personal **education** and **sandbox testing**
 - [📩・Deploy With](#deploys)
 - [🎉・Setting up](#setup)
 - [🔰・Features](#features)
-- [📝・Changelog](#changelog)
+- [📝・Config](#config)
 - [💼・Term](#terms)
 - [🕵️‍♂️・Authors](#authors)
 
@@ -53,11 +53,14 @@ This software was made for personal **education** and **sandbox testing**
 
 
 
-## <a id="changelog"></a>💭 〢 ChangeLog
+## <a id="config"></a>💭 〢 Config
 
-```diff
-v2.0 ⋮ 2024-14-02
-- 
+```json
+{
+    "token": "", // Put your token here (user token)
+    "prefix": "", // Put the prefix of the selfbot
+    "allowedUser": ["ID1", "ID2", "ID3"] // Put the ids of users who can use the selfbot
+}
 ```
 
 
