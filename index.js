@@ -5,8 +5,8 @@ const StreamVideo  = require('@dank074/discord-video-stream'),
       ffmpeg       = require('fluent-ffmpeg'),
       db           = require('./db.json'),
       fs           = require('node:fs')
-                    require('colors')
-                    ffmpeg.setFfmpegPath(ffmpegPath)
+                     require('colors')
+                     ffmpeg.setFfmpegPath(ffmpegPath)
 
 
 console.clear()
